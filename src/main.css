@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial;
+  color: #666;
+}
+
+/* fixedTable.jsx stuff */
+.flip-the-table {
+  border: solid 1px #ccc;
+  border-width: 0 1px 1px 0;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.row {
+  border-top: solid 1px #ccc;
+}
+.cell {
+  min-width: 200px;
+  display: inline-block;
+  border-left: solid 1px #ccc;
+  padding: 3px 10px 2px;
+}
+
+.header .cell {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+.header .cell.active {
+  color: #000;
+}
+.header .direction {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  width: 10px;
+}
+.header .cell:hover {
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cell.name {
+  min-width: 150px;
+}
+.cell.email {
+  min-width: 240px;
+}
+.cell.is_enabled {
+  min-width: 16px;
+}
+.cell.company {
+  min-width: 110px;
+}
+.cell.office {
+  min-width: 80px;
+}
+.cell.uid {
+  min-width: 350px;
+}
+
+.cell.uid {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  color: #800;
+}
