@@ -11,6 +11,8 @@ steps are needed on your part.
 
 Don't forget to enjoy and hopefully learn something along the way.
 
+If you have any questions please feel free to email me at esolen@yieldbot.com
+
 ### Requirements
 node and npm minimally, but figure out precisely how best to say this.
 
