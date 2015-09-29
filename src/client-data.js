@@ -8,8 +8,7 @@ export let httpClient = rest
   .wrap(errorCode)
   .wrap(defaultRequest, { headers: { 'x-yb-client': 'jazz' } });
 
-// TODO figure out how best to import browser HttpDataSource to avoid
-//      "This seems to be a pre-built javascript file." warnings
-import falcor from 'falcor/dist/falcor.browser';
-let httpDataSource = new falcor.HttpDataSource('/falcor/users.json');
-export let falcorModel = new falcor.Model({ source: httpDataSource });
+import { Model } from 'falcor';
+import HttpDataSource from 'falcor-http-datasource';
+let httpDataSource = new HttpDataSource('/falcor/users.json');
+export let falcorModel = new Model({ source: httpDataSource });

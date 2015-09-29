@@ -26,6 +26,7 @@
   "dependencies": {
     "falcor": "0.1.13",
     "falcor-hapi": "0.0.2",
+    "falcor-http-datasource": "0.1.2",
     "falcor-router": "0.2.9",
     "hapi": "9.3.1",
     "inert": "3.0.1",
