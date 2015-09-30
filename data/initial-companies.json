@@ -1,0 +1,17 @@
+[
+  {
+    "office": "NYC",
+    "address": "149 5th Avenue, 3rd Floor, New York, NY 10010",
+    "_id": "11"
+  },
+  {
+    "office": "Maynard",
+    "address": "1 Clock Tower Place, Suite 330, Maynard, MA 01754",
+    "_id": "12"
+  },
+  {
+    "office": "Portland",
+    "address": "1033 SE Main Street, Portland, OR 97214",
+    "_id": "13"
+  }
+]
