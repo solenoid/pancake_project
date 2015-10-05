@@ -14,9 +14,13 @@
 * suggest or implement improvements to the clarity of the JSON Graph data model
 * speak to or implement the ability to write new documents and update existing ones
 
-## Seneca based micro service layer
-* add it since it isn't in yet
-* add versioning to messages to allow a new version to run in parallel with the old
+## Seneca based microservice layer
+* add seneca microservices for users/companies read operations (http://senecajs.org/)
+* provide thoughts on how best to split the app into separate purpose built backend modules
+* describe the message formats for the users/companies read microservices
+* suggest a versioning strategy to support backward compatible changes to the message format
+* change the microservices to listen on another transport (e.g. http and/or tcp)
+* connect the Falcor routing layer to the microservices via http and/or tcp
 * switch the database technology while maintaining the same message format
 
 ### You don't need to fix these I need to get back around to them
