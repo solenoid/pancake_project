@@ -23,6 +23,14 @@ npm run build-dev # first time setup for local development
 npm start         # run webpack dev server and thin backend server
 ```
 
+### JavaScript Getting started
+Until I have time to write a better guide this is one of the best I've read.
+
+http://glebbahmutov.com/blog/getting-up-to-javascript-speed/
+
+Soon I hope to have a version written that will be mostly the same, but
+different on some specific advice and library decisions.
+
 ### ES6 Cheatsheet
 In case the newer syntax is throwing you for a loop.
 
