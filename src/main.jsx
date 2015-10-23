@@ -24,7 +24,7 @@ let App = React.createClass({
     //     sorted: sortBy(res.entity, this.state.sortColumn)
     //   });
     // });
-    falcorModel.get('users[0..9]["name","email","is_enabled","company","office","uid"]').then((d) => {
+    falcorModel.get('users[0..299]["name","email","is_enabled","company","office","uid"]').then((d) => {
       this.setState({
         sorted: sortBy(d.json.users, this.state.sortColumn)
       });
