@@ -1,11 +1,9 @@
 # Candidate Problems
 ## Frontend UX
+* add interesting summary information about the data
 * add table filtering aka searching
 * add table paging
-* move the paging or filtering concerns into the falcor layer w/ good UX on it
-* improve css and html build to be on par with the js build
-* get in the react router in a sensible manner
-* start bumping the version according to URL changes
+* implement something besides a table that allows insights into the data and speak to benefits / trade-offs between the approaches
 
 ## Frontend Infrastructure
 * change the JSON Graph to providing sort capabilities
@@ -13,6 +11,10 @@
 * provide thoughts on contrasting Falcor with GraphQL and or Relay
 * suggest or implement improvements to the clarity of the JSON Graph data model
 * speak to or implement the ability to write new documents and update existing ones
+* improve css and html build to be on par with the js build
+* get in the react router in a sensible manner
+* start bumping the version according to URL changes
+* move the paging or filtering concerns into the falcor layer w/ good UX on it
 
 ## Seneca based microservice layer
 * add seneca microservices for users/companies read operations (http://senecajs.org/)
