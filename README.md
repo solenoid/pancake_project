@@ -18,10 +18,15 @@ node and npm minimally, but figure out precisely how best to say this.
 
 ### Setup
 ```
-npm install       # get dev and app dependencies
-npm run build-dev # first time setup for local development
-npm start         # run webpack dev server and thin backend server
+npm install           # get dev and app dependencies
+npm run populate-data # first time setup for getting data into the database
+npm run build-dev     # first time setup for local development
+npm start             # run webpack dev server and thin backend server
 ```
+
+Now you can see the UI over at:
+
+[http://localhost:3000/ui/jazz](http://localhost:3000/ui/jazz)
 
 ### JavaScript Getting started
 Until I have time to write a better guide this is one of the best I've read.
