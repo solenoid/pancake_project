@@ -36,6 +36,11 @@ http://glebbahmutov.com/blog/getting-up-to-javascript-speed/
 Soon I hope to have a version written that will be mostly the same, but
 different on some specific advice and library decisions.
 
+### Learning React
+The best place to start learning react concepts has been and remains over here.
+
+https://facebook.github.io/react/docs/thinking-in-react.html
+
 ### ES6 Cheatsheet
 In case the newer syntax is throwing you for a loop.
 
